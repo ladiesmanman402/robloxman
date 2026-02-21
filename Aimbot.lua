@@ -96,9 +96,9 @@ getgenv().ExunysDeveloperAimbot = {
 	Settings = {
 		Enabled = true,
 
-		TeamCheck = true,
+		TeamCheck = false,
 		AliveCheck = true,
-		WallCheck = true,
+		WallCheck = false,
 
 		OffsetToMoveDirection = false,
 		OffsetIncrement = 15,
@@ -107,15 +107,15 @@ getgenv().ExunysDeveloperAimbot = {
 		Sensitivity2 = 3.5, -- mousemoverel Sensitivity
 
 		LockMode = 1, -- 1 = CFrame; 2 = mousemoverel
-		LockPart = "Torso", -- Body part to lock on
+		LockPart = "Head", -- Body part to lock on
 
-		TriggerKey = Enum.UserInputType.V,
+		TriggerKey = Enum.UserInputType.MouseButton2,
 		Toggle = false
 	},
 
 	FOVSettings = {
 		Enabled = true,
-		Visible = False,
+		Visible = false,
 
 		Radius = 90,
 		NumSides = 60,
